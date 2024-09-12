@@ -44,4 +44,12 @@ public class MyFileWriter {
                 e.printStackTrace();
             }
         }
+
+        //printFileSize - prints the length of the contents of the file
+        public static void printFileSize (String fileName){
+            //implement my print filesize
+            File file = new File(fileName);
+            long fileSize = file.length();
+            System.out.println (fileSize);
+        }
 }
