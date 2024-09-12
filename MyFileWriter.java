@@ -44,4 +44,9 @@ public class MyFileWriter {
                 e.printStackTrace();
             }
         }
+
+        public static void printFileSize (String fileName){
+            //implement my print filesize
+            
+        }
 }
